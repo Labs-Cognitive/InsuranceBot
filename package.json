@@ -1,0 +1,33 @@
+{
+  "name": "insurancebot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudant": "^1.10.0-NOTICE",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "jsonwebtoken-refresh": "^5.7.0",
+    "localstorage": "^1.0.1",
+    "nexmo": "^2.3.2",
+    "node-mailer": "^0.1.1",
+    "nodemailer": "^4.6.8",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "npm": "^6.4.1",
+    "promise": "^8.0.1",
+    "restify": "^7.2.1",
+    "store": "^2.0.12",
+    "stringify-object": "^3.2.2",
+    "twilio": "^3.19.2",
+    "unirest": "^0.5.1",
+    "watson-developer-cloud": "^3.9.0"
+  },
+  "engines": {
+    "node": "8.10.0"
+  }
+}

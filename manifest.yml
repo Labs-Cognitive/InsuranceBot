@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: Insurancebotwhatsapp3310
+  host: Insurancebotwhatsapp3311
+  disk_quota: 512M
+  services:
+  - Cloudant-InsuranceBot
+ 
